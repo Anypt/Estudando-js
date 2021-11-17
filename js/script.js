@@ -1,6 +1,9 @@
-var nome = "Anelise";
-var ano = "2007";
-var idade = 2021 - ano;
+function coletordedados(){
+    var nome = document.querySelector("#nome").value;
+    var ano = document.querySelector("#fecha").value;
+    var idade = 2021 - ano;
+    
+    console.log ("Olá, meu nome é " + nome + " e eu nasci em" + ano + " eu tenho " + idade + " de idade"); 
+}
 
-
-console.log (nome + " " + ano + " minha idade é " + idade)
+coletordedados(); 
