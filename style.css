@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    background-color: azure;
+}
+
+.um, .dois {
+    background-color: rgb(255, 225, 144);
+    padding: 20px;
+    margin-right: 50px;
+    border-radius: 6px;
+    border-color: black;
+}
+
+
+
+.botao {
+    background-color: rgb(255, 225, 144);
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border: black;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+}
